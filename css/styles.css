@@ -1,7 +1,10 @@
 html, body{
   margin: 0;
 }
-
+main{
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+}
 body {
   max-width: 320px;
   margin: auto;
@@ -17,10 +20,11 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  background: #ddd;
+  background: purple;
   padding: 0 20px;
   position: sticky;
   top: 0;
+  color: aliceblue;
 }
 
 .profile-picture {
@@ -29,7 +33,7 @@ header {
   border-radius: 50%;
 }
 
-.chatbox-container {
+ .chatbox-container {
   border-left: 1px solid black;
   border-right: 1px solid black;
   display: flex;
@@ -90,7 +94,7 @@ header {
 }
 
 footer {
-  background: pink;
+  background: purple;
   display: flex;
   justify-content: space-between;
   padding: 20px;
