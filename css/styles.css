@@ -42,28 +42,15 @@ header {
   padding: 10px 15px;
 }
 
-.message-author {
-  font-family: sans-serif;
-  font-size: 10px;
-  margin: 0;
-  padding: 0 15px;
-}
-
-.message-box-jayce {
-  align-self: flex-end;
-}
-
-.message-box-jayce .message-author {
-  text-align: right;
+.message-box-jayce .message-content, .message-box-midjayce .message-content, .message-box-rejayce .message-content{
+  background-color: red;
 }
 
 .message-box-jayce .message-content {
-  background: #f33;
   border-radius: 15px 15px 0 15px;
 }
 
-
-.message-box-rejayce {
+.message-box-rejayce, .message-box-midjayce, .message-box-jayce {
   align-self: flex-end;
   text-align: left;
 }
@@ -76,10 +63,12 @@ header {
   border-radius: 0 15px 15px 0;
 }
 
+.message-box-midjayce .message-content{
+  border-radius: 15px 0 0 15px;
+}
 
 .message-box-rejayce .message-content {
   border-radius: 15px 0 15px 15px;
-  background: #f33;
 }
 
 footer {
