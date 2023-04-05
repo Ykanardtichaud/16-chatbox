@@ -1,5 +1,15 @@
-html, body {
+html, body{
   margin: 0;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  max-width: 85%;
 }
 
 header {
@@ -69,6 +79,14 @@ header {
 
 .message-box-rejayce .message-content {
   border-radius: 15px 0 15px 15px;
+}
+
+.dates{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 65%;
+  color: lightgrey;
 }
 
 footer {
