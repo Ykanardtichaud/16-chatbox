@@ -1,328 +1,384 @@
+<!DOCTYPE html>
 <html lang="en">
-  <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="chatbox-container">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="chatbox-container">
     <header>
       <h1>Zaila</h1>
       <img class="profile-picture" 
            src="img/zaila-pp.jpg" 
            alt="Photo de profil de Zaila">
     </header>
-    <main>
       <div class="dates">
-      <p>5.aout.2022</p>
-    </div>
-    <div class="message-box message-box-jayce">
-      <p class="message-content">
-        Salut, ça va ?
-      </p>
-      <p class="message-author">
-      </p>
-    </div>
-    <div class="message-box message-box-zaila">
-      <p class="message-content">
-        Pas vraiment…
-      </p>
-    </div>
-    <div class="message-box message-box-jayce">
-      <p class="message-content">
-        Qu’est ce qui c’est passé 
-      </p>
-    </div>
-    <div class="message-box message-box-zaila">
-      <p class="message-content">
-        J'ai perdu mon travail hier.
-      </p>
-    </div>
-    <div class="message-box message-box-jayce">
-      <p class="message-content">
-        Ah merde ...
-      </p> 
-    </div>
-    <div class="message-box message-box-rejayce">
-      <p class="message-content">
-        Je suis désolé. Comment ça s'est passé ?
-      </p>
-    </div>
-    <div class="message-box message-box-zaila">
-      <p class="message-content">
-        Mon patron m'a appelé dans son bureau et m'a dit 
-        qu'ils devaient faire des coupes budgétaires.
-      </p>
-    </div>
-    <div class="message-box message-box-jayce">
-      <p class="message-content">
-        Et Qu'est-ce que tu vas faire maintenant ?     
-     </p>
-    </div>
-    <div class="message-box message-box-zaila">
-      <p class="message-content">
-        J’en sais rien. J'ai envoyé quelques CV,       
-      </p>
-    </div>
-    <div class="message-box message-box-midzaila">
-      <p class="message-content">
-        Mais je n'ai pas eu de réponse pour l'instant.
-      </p> 
-    </div>
-    <div class="message-box message-box-rezaila">
-      <p class="message-content">
-        Et franchement je sais même pas si j’en veux 
-      </p> 
-    </div>
-    <div class="message-box message-box-jayce">
-      <p class="message-content">
-        Ton travaille ne te convient plus ?    
-      </p>
-    </div>
-    <div class="message-box message-box-zaila">
-      <p class="message-content">
-        Plus vraiment…       
-      </p>
-    </div>
+        <p>5.aout.2022</p>
+      </div>
       <div class="message-box message-box-jayce">
         <p class="message-content">
-          Tu à déjà penser de te mettre a ton compte ?
+           Salut, ça va ?
+          <em class="hour-jayce">14h30</em>
+        </p>
+        <p class="message-author">
         </p>
       </div>
       <div class="message-box message-box-zaila">
         <p class="message-content">
-          Comment ça ?       
+           Pas vraiment…
+          <em class="hour-zaila">14h32</em>
         </p>
       </div>
       <div class="message-box message-box-jayce">
         <p class="message-content">
-          Tu as toujours eu une passion pour la cuisine, non?
+           Qu’est ce qui c’est passé
+          <em class="hour-jayce">14h35</em> 
         </p>
+      </div>
+      <div class="message-box message-box-zaila">
+        <p class="message-content">
+           J'ai perdu mon travail hier.
+          <em class="hour-zaila">14h35</em>
+        </p>
+      </div>
+      <div class="message-box message-box-jayce">
+        <p class="message-content">
+           Ah merde ...
+          <em class="hour-jayce">14h36</em>
+        </p> 
       </div>
       <div class="message-box message-box-rejayce">
         <p class="message-content">
-          pourquoi ne pas ouvrir un petit restaurant ?
+           Je suis désolé. Comment ça s'est passé ?
+          <em class="hour-jayce">14h36</em>
         </p>
       </div>
       <div class="message-box message-box-zaila">
         <p class="message-content">
-          C'est une idée intéressante, mais je n'ai pas les moyens pour ça.    
+           Mon patron m'a appelé dans son bureau et m'a dit 
+           qu'ils devaient faire des coupes budgétaires.
+          <em class="hour-zaila">14h39</em>
         </p>
-      </div>   
+      </div>
       <div class="message-box message-box-jayce">
         <p class="message-content">
-          Mais tu peux commencer petit!
-        </p>
-      </div>
-      <div class="message-box message-box-midjayce">
-        <p class="message-content">
-          Avec un food truck ou quelque chose comme ça. 
-        </p>
-      </div>
-      <div class="message-box message-box-midjayce">
-        <p class="message-content">
-          Tu pourrais proposer des plats qui sortent de l'ordinaire
-        </p>
-      </div>
-      <div class="message-box message-box-rejayce">
-        <p class="message-content">
-          Ou de la cuisine Asiatique tu aime tellement ça
+           Et Qu'est-ce que tu vas faire maintenant ?     
+          <em class="hour-jayce">14h39</em>
         </p>
       </div>
       <div class="message-box message-box-zaila">
         <p class="message-content">
-          Tu sais quoi, c'est une excellente idée!  
-        </p>
-      </div>  
-      <div class="message-box message-box-rezaila">
-        <p class="message-content">
-          Je vais me mettre à travailler sur un concept 
-          et voir ce que je peux faire pour le mettre en place.    
-        </p>
-      </div>    
-      <div class="message-box message-box-jayce">
-        <p class="message-content">
-          C'est génial, je suis sûr que tu vas y arriver.
+           J’en sais rien. J'ai envoyé quelques CV,       
+          <em class="hour-zaila">14h40</em>
         </p>
       </div>
-      <div class="message-box message-box-rejayce">
+      <div class="message-box message-box-midzaila">
         <p class="message-content">
-          Si tu as besoin d'aide, n'hésite pas à m'appeler.
-        </p>
-      </div>
-      <div class="message-box message-box-zaila">
-        <p class="message-content">
-          Merci, je vais certainement en avoir besoin.
-        </p>
+           Mais je n'ai pas eu de réponse pour l'instant.
+          <em class="hour-zaila">14h40</em>
+        </p> 
       </div>
       <div class="message-box message-box-rezaila">
         <p class="message-content">
-          Je vais m'y mettre tout de suite je te tiens au courant 
-        </p>
+           Et franchement je sais même pas si j’en veux 
+          <em class="hour-zaila">14h40</em>
+        </p> 
       </div>
       <div class="message-box message-box-jayce">
         <p class="message-content">
-          Pas de problème je suis la si tu as des questions
+           Ton travaille ne te convient plus ?    
+          <em class="hour-jayce">14h42</em>
         </p>
       </div>
-      <div class="dates">
-        <p>12.mai.2023</p>
+      <div class="message-box message-box-zaila">
+        <p class="message-content">
+           Plus vraiment…
+          <em class="hour-zaila">14h43</em>       
+        </p>
       </div>
-        <div class="message-box message-box-zaila">
-          <p class="message-content">
-            JJAAAYCE!!!!! 😁😁😁😁
-          </p>
-        </div>
         <div class="message-box message-box-jayce">
           <p class="message-content">
-            Hey! ça fait longtemps comment ça va ?
+             Tu à déjà penser de te mettre a ton compte ?
+            <em class="hour-jayce">14h43</em>
           </p>
         </div>
         <div class="message-box message-box-zaila">
           <p class="message-content">
-            ça ne peut pas aller mieux!!!
-          </p>
-        </div>
-        <div class="message-box message-box-midzaila">
-          <p class="message-content">
-            REGARDEEE!!!!!!!
-          </p>
-        </div>
-        <div class="message-box message-box-rezaila">
-            <img class="message-photo message-content"
-                 src="img/zaila-food-truck.png" 
-                 alt="zaila devant son food truck">
-        </div>
-        <div class="message-box message-box-jayce">
-          <p class="message-content">
-            OUAAA TROP COOL !!
-          </p>
-        </div>
-        <div class="message-box message-box-zaila">
-          <p class="message-content">
-            Et toi de ton coter tu fais quoi?
+             Comment ça ?       
+            <em class="hour-zaila">14h44</em>
           </p>
         </div>
         <div class="message-box message-box-jayce">
           <p class="message-content">
-            Je suis maintenant l'heureux propriétaire d'un cfc de cuisto ^^
-          </p>
-        </div>
-        <div class="message-box message-box-zaila">
-          <p class="message-content">
-            Tu a réussi c'est génial!
-            Et tu as trouvé du travail ?
-          </p>
-        </div>
-        <div class="message-box message-box-jayce">
-          <p class="message-content">
-            Tu as le doigt pour mettre le doigt la ou ça fait mal ...
-          </p>
-        </div>
-        <div class="message-box message-box-zaila">
-          <p class="message-content">
-            HAHAHA
-          </p>
-        </div>
-        <div class="message-box message-box-rezaila">
-          <p class="message-content">
-            J'ai un petit qqch pour toi 
-          </p>
-        </div>
-        <div class="message-box message-box-jayce">
-          <p class="message-content">
-            Oh une surprise, c'est quoi?
-          </p>
-        </div>
-        <div class="message-box message-box-zaila">
-          <p class="message-content">
-            C'est pas grand chose tkt pas XD
-          </p>
-        </div>
-        <div class="message-box message-box-rezaila">
-          <img class="message-photo message-content"
-               src="img/garage-door.gif" 
-               alt="zaila devant son food truck dans son garage">
-        </div>
-        <div class="message-box message-box-jayce">
-          <p class="message-content">
-            OUAAAA tu as un deuxième ?!
-          </p>
-        </div>
-        <div class="message-box message-box-zaila">
-          <p class="message-content">
-            J'ai toujours eu la fibre patronnal haha
-          </p>
-        </div>
-        <div class="message-box message-box-rezaila">
-          <p class="message-content">
-            le soucis c'est qu'il me manque un cuisinier tu en connaitrais un ?
-          </p>
-        </div>
-        <div class="message-box message-box-jayce">
-          <p class="message-content">
-            oh euh oui surement je check mes adresse att
-          </p>
-        </div>
-        <div class="message-box message-box-zaila">
-          <p class="message-content">
-            Ce que tu peux être stupid des fois
-          </p>
-        </div>
-        <div class="message-box message-box-rezaila">
-          <p class="message-content">
-            Je l'ai déja choisis mon cuisinier
-          </p>
-        </div>
-        <div class="message-box message-box-jayce">
-          <p class="message-content">
-            Tu veux dire que .... ??
-          </p>
-        </div>
-        <div class="message-box message-box-zaila">
-          <p class="message-content">
-            Biens sur que oui toi idiot, tout ça c'est grace a toi!!
-          </p>
-        </div>
-        <div class="message-box message-box-rezaila">
-          <p class="message-content">
-            Alors rdv ici demain à 9h30 ton camion sera présent!
-          </p>
-        </div>
-        <div class="message-box message-box-jayce">
-          <p class="message-content">
-            Tu es vraiment une fille merveilleuse....
-            infiniment merci
-          </p>
-        </div>
-        <div class="message-box message-box-midjayce">
-          <p class="message-content">
-            j'en ai révée depuis toujours.
+             Tu as toujours eu une passion pour la cuisine, non?
+            <em class="hour-jayce">14h44</em>
           </p>
         </div>
         <div class="message-box message-box-rejayce">
           <p class="message-content">
-            Alors je file je vai préparer mes affaires pour demain!!!
+             pourquoi ne pas ouvrir un petit restaurant ?
+            <em class="hour-jayce">14h45</em>
           </p>
         </div>
         <div class="message-box message-box-zaila">
           <p class="message-content">
-            sois pas en retard ton premier jours XD
+             C'est une idée intéressante, mais je n'ai pas les moyens pour ça.    
+            <em class="hour-zaila">14h45</em>
+          </p>
+        </div>   
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+             Mais tu peux commencer petit!
+            <em class="hour-jayce">14h46</em>
+          </p>
+        </div>
+        <div class="message-box message-box-midjayce">
+          <p class="message-content">
+             Avec un food truck ou quelque chose comme ça. 
+            <em class="hour-jayce">14h46</em>
+          </p>
+        </div>
+        <div class="message-box message-box-midjayce">
+          <p class="message-content">
+             Tu pourrais proposer des plats qui sortent de l'ordinaire
+            <em class="hour-jayce">14h47</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rejayce">
+          <p class="message-content">
+             Ou de la cuisine Asiatique tu aime tellement ça
+            <em class="hour-jayce">14h48</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+             Tu sais quoi, c'est une excellente idée! 
+            <em class="hour-zaila">14h49</em> 
+          </p>
+        </div>  
+        <div class="message-box message-box-rezaila">
+          <p class="message-content">
+             Je vais me mettre à travailler sur un concept 
+             et voir ce que je peux faire pour le mettre en place.    
+            <em class="hour-zaila">14h51</em>
+          </p>
+        </div>    
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+             C'est génial, je suis sûr que tu vas y arriver.
+            <em class="hour-jayce">14h52</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rejayce">
+          <p class="message-content">
+             Si tu as besoin d'aide, n'hésite pas à m'appeler.
+            <em class="hour">14h52</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+             Merci, je vais certainement en avoir besoin.
+            <em class="hour">14h54</em>
           </p>
         </div>
         <div class="message-box message-box-rezaila">
           <p class="message-content">
-            aller! repose toi bien 
+             Je vais m'y mettre tout de suite je te tiens au courant 
+            <em class="hour">14h54</em>
           </p>
         </div>
-      </main>
-    <footer class="message-form">
-      <input placeholder="Entrez votre message" type="text">
-      <button>→</button>
-    </footer>
-  </div>
-</body>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+             Pas de problème je suis la si tu as des questions
+            <em class="hour-jayce">14h55</em>
+          </p>
+        </div>
+        <div class="dates">
+          <p>12.mai.2023</p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+             JJAAAYCE!!!!! 😁😁😁😁
+              <em class="hour-zaila">11h30</em>
+          </p>
+        </div>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+             Hey! ça fait longtemps comment ça va ?
+             <em class="hour-jayce">11h32</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+              ça ne peut pas aller mieux!!!
+              <em class="hour-zaila">11h32</em>
+          </p>
+        </div>
+        <div class="message-box message-box-midzaila">
+          <p class="message-content">
+              REGARDEEE!!!!!!!
+              <em class="hour-zaila">11h32</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rezaila">
+          <img class="message-photo message-content"
+               src="img/zaila-food-truck.png" 
+               alt="zaila devant son food truck">
+        </div>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+              OUAAA TROP COOL !!
+              <em class="hour-jayce">11h32</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+              Et toi de ton coter tu fais quoi?
+              <em class="hour-zaila">11h33</em>
+          </p>
+        </div>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+              Je suis maintenant l'heureux propriétaire d'un cfc de cuisto ^^
+              <em class="hour-jayce">11h33</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+              Tu a réussi c'est génial!
+              Et tu as trouvé du travail ?
+              <em class="hour-zaila">11h33</em>
+          </p>
+        </div>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+              Tu as le doigt pour mettre le doigt la ou ça fait mal ...
+              <em class="hour-jayce">11h34</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+              HAHAHA
+              <em class="hour-zaila">11h34</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rezaila">
+          <p class="message-content">
+              J'ai un petit qqch pour toi
+              <em class="hour-zaila">11h34</em> 
+          </p>
+        </div>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+              Oh une surprise, c'est quoi?
+              <em class="hour-jayce">11h35</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+              C'est pas grand chose tkt pas XD
+              <em class="hour-zaila">11h35</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rezaila">
+          <img class="message-photo message-content"
+                src="img/garage-door.gif" 
+                alt="zaila devant son food truck dans son garage">
+        </div>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+              OUAAAA tu as un deuxième ?!
+              <em class="hour-jayce">11h36</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+              J'ai toujours eu la fibre patronnal haha
+              <em class="hour-zaila">11h37</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rezaila">
+          <p class="message-content">
+              le soucis c'est qu'il me manque un cuisinier tu en connaitrais un ?
+              <em class="hour-zaila">11h38</em>
+          </p>
+        </div>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+              oh euh oui surement je check mes adresse att
+              <em class="hour-jayce">11h39</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+              Ce que tu peux être stupid des fois
+              <em class="hour-zaila">11h40</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rezaila">
+          <p class="message-content">
+             Je l'ai déja choisis mon cuisinier
+             <em class="hour-zaila">11h40</em>
+          </p>
+        </div>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+              Tu veux dire que .... ??
+              <em class="hour-jayce">11h41</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+              Biens sur que oui toi idiot, tout ça c'est grace a toi!!
+              <em class="hour-zaila">11h42</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rezaila">
+          <p class="message-content">
+              Alors rdv ici demain à 9h30 ton camion sera présent!
+              <em class="hour-zaila">11h42</em>
+          </p>
+        </div>
+        <div class="message-box message-box-jayce">
+          <p class="message-content">
+              Tu es vraiment une fille merveilleuse....
+              infiniment merci
+              <em class="hour-jayce">11h43</em>
+          </p>
+        </div>
+        <div class="message-box message-box-midjayce">
+          <p class="message-content">
+              j'en ai révée depuis toujours.
+              <em class="hour-jayce">11h44</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rejayce">
+          <p class="message-content">
+              Alors je file je vai préparer mes affaires pour demain!!!
+              <em class="hour-jayce">11h45</em>
+          </p>
+        </div>
+        <div class="message-box message-box-zaila">
+          <p class="message-content">
+              sois pas en retard ton premier jours XD
+              <em class="hour-zaila">11h46</em>
+          </p>
+        </div>
+        <div class="message-box message-box-rezaila">
+          <p class="message-content">
+              aller! repose toi bien
+              <em class="hour-zaila">11h46</em> 
+          </p>
+        </div>
+      <footer class="message-form">
+        <input placeholder="Entrez votre message" type="text">
+        <button>➤</button>
+      </footer>
+  </body>
 </html>

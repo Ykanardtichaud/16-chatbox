@@ -1,10 +1,8 @@
 html, body{
   margin: 0;
+  background-color: black;
 }
-main{
-  background-image: url(../img/background.jpg);
-  background-attachment: fixed;
-}
+
 body {
   max-width: 320px;
   margin: auto;
@@ -41,6 +39,9 @@ header {
   margin: auto;
   flex-direction: column;
   align-items: left;
+  background-image: url(../img/baground.png);
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .message-box {
@@ -50,14 +51,15 @@ header {
 
 .message-content {
   border-radius: 15px 15px 15px 0;
-  font-family: monospace;
-  background: #55f;
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  background: skyblue;
   margin: 0 0 5px 0;
   padding: 10px 15px;
 }
 
 .message-box-jayce .message-content, .message-box-midjayce .message-content, .message-box-rejayce .message-content{
-  background-color: red;
+  background-color: yellow;
 }
 
 .message-box-jayce .message-content {
@@ -93,6 +95,24 @@ header {
   color: lightgrey;
 }
 
+.hour-jayce{
+  display: flex;
+  flex-flow: row wrap;
+  align-self: flex-end;
+  font-size: 7px;
+  color:grey;
+  margin: 5px 0;
+}
+
+.hour-zaila{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  font-size: 7px;
+  color:grey;
+  margin: 5px 0;
+}
+
 footer {
   background: purple;
   display: flex;
@@ -100,4 +120,16 @@ footer {
   padding: 20px;
   position: sticky;
   bottom: 0;
+}
+
+footer input{
+  border: 2px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+button{
+  border: 5px;
+  border-radius: 25px;
+  margin-right: 20px;
 }
